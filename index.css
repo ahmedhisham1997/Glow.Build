@@ -699,7 +699,9 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+     
         &:hover {
+           transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -711,7 +713,9 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+           
         &:hover {
+      transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -723,8 +727,11 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-        &:hover {
+           
+      &:hover {
+            transition: 3s;
     transform: scale(0.9);
+   
   }
     }
     .card9 {
@@ -735,8 +742,11 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-        &:hover {
+          
+      &:hover {
+         transition: 3s;
     transform: scale(0.9);
+ 
   }
     }
     .card8 {
@@ -747,7 +757,9 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-        &:hover {
+         transition: 3s;
+      &:hover {
+         transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -759,7 +771,9 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-        &:hover {
+         transition: 3s;
+      &:hover {
+         transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -771,7 +785,9 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-        &:hover {
+           transition: 3s;
+      &:hover {
+         transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -783,7 +799,9 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-        &:hover {
+         transition: 3s;
+      &:hover {
+         transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -795,7 +813,9 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -808,6 +828,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -820,6 +841,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -832,6 +854,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -844,6 +867,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -856,6 +880,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -868,6 +893,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -880,6 +906,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -892,6 +919,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -904,6 +932,7 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
         &:hover {
+            transition: 3s;
     transform: scale(0.9);
   }
     }
@@ -917,6 +946,7 @@ header {
       background-size: cover;
         &:hover {
     transform: scale(0.9);
+     transition: 3s;
   }
     }
     .card90 {
@@ -929,6 +959,7 @@ header {
       background-size: cover;
         &:hover {
     transform: scale(0.9);
+     transition: 3s;
   }
     }
 
@@ -950,7 +981,7 @@ header {
     padding-top: 185rem;
   }
   @media screen and (max-width: 767px) {
-    padding-top: 400rem;
+    padding-top: 450rem;
   }
     #Contact{
         display: flex;
