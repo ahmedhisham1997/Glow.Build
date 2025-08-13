@@ -158,20 +158,44 @@ header {
       justify-content: center;
       align-items: end;
       gap: 1rem;
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+        padding: 2rem;
+      }
+      @media screen and (max-width: 767px) {
+        padding: 2rem;
+      }
       h1 {
         color: rgba(211, 164, 118, 0.781);
         font-weight: 900;
         font-size: clamp(10px, 2vw, 20px);
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+          padding: 2rem;
+        }
+        @media screen and (max-width: 767px) {
+          padding: 2rem;
+        }
       }
       p {
         color: rgb(71, 32, 2);
         text-align: end;
         font-size: clamp(5px, 1vw, 15px);
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+          padding: 2rem;
+        }
+        @media screen and (max-width: 767px) {
+          padding: 2rem;
+        }
       }
       h2 {
         color: rgb(71, 32, 2);
         span {
           background-color: rgb(196, 165, 154);
+          @media screen and (min-width: 768px) and (max-width: 992px) {
+            padding: 2rem;
+          }
+          @media screen and (max-width: 767px) {
+            padding: 2rem;
+          }
         }
       }
     }
@@ -227,10 +251,9 @@ header {
   align-items: center;
   padding-top: 10rem;
   transition: 2s;
-   &:hover {
-        transform: scale(.9);
-        
-      }
+  &:hover {
+    transform: scale(0.9);
+  }
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 70rem;
   }
@@ -254,7 +277,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-   
+
     gap: 2rem;
 
     h1 {
@@ -283,11 +306,10 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 15rem;
-    transition: 2s;
-   &:hover {
-        transform: scale(.9);
-        
-      }
+  transition: 2s;
+  &:hover {
+    transform: scale(0.9);
+  }
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 30rem;
   }
@@ -306,7 +328,7 @@ header {
         rgba(10, 9, 7, 0.664),
         rgba(8, 8, 6, 0.473)
       ),
-      url("./22.jpeg");
+      url("./22.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -339,11 +361,10 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 20rem;
-    transition: 2s;
-   &:hover {
-        transform: scale(.9);
-        
-      }
+  transition: 2s;
+  &:hover {
+    transform: scale(0.9);
+  }
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 30rem;
   }
@@ -362,12 +383,12 @@ header {
         rgba(10, 9, 7, 0.664),
         rgba(8, 8, 6, 0.473)
       ),
-      url("./رخصه.jpeg");
+      url("./رخصه.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-   
+
     gap: 2rem;
 
     h1 {
@@ -396,10 +417,9 @@ header {
   justify-content: center;
   align-items: center;
   transition: 2s;
-   &:hover {
-        transform: scale(.9);
-        
-      }
+  &:hover {
+    transform: scale(0.9);
+  }
   padding-top: 25rem;
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 30rem;
@@ -419,7 +439,7 @@ header {
         rgba(10, 9, 7, 0.664),
         rgba(8, 8, 6, 0.473)
       ),
-      url("./سملات.jpeg");
+      url("./سملات.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -452,10 +472,9 @@ header {
   justify-content: center;
   align-items: center;
   transition: 2s;
-   &:hover {
-        transform: scale(.9);
-        
-      }
+  &:hover {
+    transform: scale(0.9);
+  }
   padding-top: 30rem;
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 30rem;
@@ -475,7 +494,7 @@ header {
         rgba(10, 9, 7, 0.664),
         rgba(8, 8, 6, 0.473)
       ),
-      url("./55.jpeg");
+      url("./55.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -508,10 +527,9 @@ header {
   justify-content: center;
   align-items: center;
   transition: 2s;
-   &:hover {
-        transform: scale(.9);
-        
-      }
+  &:hover {
+    transform: scale(0.9);
+  }
   padding-top: 30rem;
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 30rem;
@@ -531,7 +549,7 @@ header {
         rgba(10, 9, 7, 0.664),
         rgba(8, 8, 6, 0.473)
       ),
-      url("./66.jpeg");
+      url("./66.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -556,8 +574,8 @@ header {
   }
 }
 
-#Who{
-    width: 1351px;
+#Who {
+  width: 1351px;
   max-width: 100%;
   display: flex;
   padding-top: 20rem;
@@ -587,20 +605,44 @@ header {
       justify-content: center;
       align-items: end;
       gap: 1rem;
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+        padding: 2rem;
+      }
+      @media screen and (max-width: 767px) {
+        padding: 2rem;
+      }
       h1 {
         color: rgba(211, 164, 118, 0.781);
         font-weight: 900;
         font-size: clamp(10px, 2vw, 20px);
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+          padding: 2rem;
+        }
+        @media screen and (max-width: 767px) {
+          padding: 2rem;
+        }
       }
       p {
         color: rgb(71, 32, 2);
         text-align: end;
         font-size: clamp(5px, 1vw, 15px);
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+          padding: 2rem;
+        }
+        @media screen and (max-width: 767px) {
+          padding: 2rem;
+        }
       }
       h2 {
         color: rgb(71, 32, 2);
         span {
           background-color: rgb(196, 165, 154);
+          @media screen and (min-width: 768px) and (max-width: 992px) {
+            padding: 2rem;
+          }
+          @media screen and (max-width: 767px) {
+            padding: 2rem;
+          }
         }
       }
     }
@@ -614,5 +656,220 @@ header {
       background-size: cover;
       border-radius: 10px;
     }
+  }
+}
+#Our {
+  width: 1351px;
+  max-width: 100%;
+  height: 1000px;
+  background-color: #f8f0ed;
+  padding-top: 5rem;
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    padding-top: 30rem;
+  }
+  @media screen and (max-width: 767px) {
+    padding-top: 30rem;
+  }
+  .Top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      color: rgb(114, 59, 4);
+    }
+    p {
+      color: rgb(148, 74, 0);
+    }
+  }
+  .Under {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    .card12 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./60.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card11 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./22.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card10 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./33.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card9 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./44.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card8 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./50.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card7 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./55.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card6 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./60.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card5 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./50.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card4 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./333.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card3 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./30.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card2{
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./20.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card1 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./10.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card20 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./150.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card30 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./130.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card40 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./120.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card50 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./110.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card60 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./100.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card70 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./90.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card80 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./80.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card90 {
+      width: 322px;
+      max-width: 100%;
+      height: 322px;
+      background-image: url(./70.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
   }
 }
